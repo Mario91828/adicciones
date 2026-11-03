@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LIBRE — Portal de Concientización sobre Adicciones</title>
+  <meta name="description" content="Información clínica y recursos oficiales de México sobre adicciones a sustancias, alcohol, tabaco, videojuegos, redes sociales y apuestas. Línea de la Vida 800 911 2000."/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script>
+    (function(){
+      var s = localStorage.getItem('libre_theme');
+      var p = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+      document.documentElement.setAttribute('data-theme', s || (p ? 'light' : 'dark'));
+    })();
+  </script>
+</head>
+<body>
+
+<div id="loading-screen">
+  <div class="loading-brand">LI<span>BRE</span></div>
+  <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+  <div class="loading-actions">
+    <span class="loading-status">Cargando portal informativo</span>
+    <button type="button" id="btn-skip-loading" class="skip-btn">Entrar directo</button>
+  </div>
+</div>
+
+<nav>
+  <div class="nav-container">
+    <a href="#" class="nav-brand">LI<span>BRE</span></a>
+    <ul class="nav-links">
+      <li><a href="#informacion">Adicciones</a></li>
+      <li><a href="#senales">Criterios de Alerta</a></li>
+      <li><a href="#recuperacion">Recuperación</a></li>
+      <li><a href="#directorio">Directorio Oficial México</a></li>
+    </ul>
+    <div class="nav-right">
+      <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar modo de color">
+        <span id="theme-text">Modo claro</span>
+      </button>
+      <a href="tel:8009112000" class="nav-emergency"><span>800 911 2000</span></a>
+    </div>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="container">
+    <div class="hero-tag"><span class="hero-tag-bullet"></span> Salud Pública y Prevención | México</div>
+    <h1 class="hero-title">¿Cuándo perdiste el control de lo que creías <span class="hero-highlight">controlar?</span></h1>
+    <p class="hero-text">La dependencia no es una debilidad moral ni una falta de carácter: es una alteración neurobiológica documentada clínicamente. Conocer los factores de riesgo y los mecanismos del comportamiento compulsivo es el primer paso para buscar ayuda oportuna.</p>
+    <div class="hero-actions">
+      <a href="#directorio" class="btn btn-primary">Directorio Oficial de Ayuda en México</a>
+      <a href="#informacion" class="btn btn-secondary">Comprender las Adicciones</a>
+    </div>
+  </div>
+</section>
+
+<section id="evidencia">
+  <div class="container">
+    <div class="stats-container">
+      <div class="stat-box">
+        <div class="stat-val">800 911 2000</div>
+        <p class="stat-desc">Línea de la Vida en México: atención telefónica profesional, gratuita y confidencial las 24 horas.</p>
+        <span class="stat-source">Fuente: CONASAMA / Secretaría de Salud</span>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">71%</div>
+        <p class="stat-desc">De las personas con consumo problemático de sustancias o juego compulsivo iniciaron durante la adolescencia.</p>
+        <span class="stat-source">Fuente: ENCODAT México</span>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">CIE-11</div>
+        <p class="stat-desc">La Organización Mundial de la Salud clasifica formalmente el uso de videojuegos y apuestas como trastornos adictivos.</p>
+        <span class="stat-source">Fuente: OMS</span>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">85%</div>
+        <p class="stat-desc">De las personas en esquemas multidisciplinarios de tratamiento logran estabilidad funcional sostenida.</p>
+        <span class="stat-source">Fuente: Centros de Integración Juvenil</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="informacion">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Expediente Clínico y Evidencia</span>
+      <h2 class="section-title">Clasificación y Naturaleza de las Adicciones</h2>
+      <p class="section-description">Las dependencias secuestran los circuitos de recompensa cerebrales, reduciendo receptores de dopamina y debilitando la capacidad de autorregulación prefrontal.</p>
+    </div>
+
+    <div class="dossier-grid">
+      <!-- Alcohol -->
+      <article class="dossier-item">
+        <div class="dossier-sidebar">
+          <span class="dossier-badge">Sustancia Psicoactiva</span>
+          <h3 class="dossier-title">Alcohol</h3>
+          <p class="dossier-meta">Depresor del SNC. La adicción química más extendida y normalizada en México.</p>
+        </div>
+        <div class="dossier-content">
+          <div class="dossier-block">
+            <h4>Mecanismo y Consecuencias</h4>
+            <p>Potencia el neurotransmisor inhibitorio GABA e inhibe el glutamato. Provoca tolerancia progresiva, cirrosis hepática, cardiopatías, pérdida de tejido cerebral, lagunas amnésicas y desintegración familiar.</p>
+          </div>
+          <div class="clinical-warning"><strong>Criterio de alerta:</strong> Consumir para calmar temblores o ansiedad, amnesias inducidas (blackouts) y fracaso reiterado al intentar frenar.</div>
+          <div class="dossier-source-box">
+            <span class="dossier-source-tag">Fuente: <strong>Organización Mundial de la Salud (OMS)</strong></span>
+            <a href="https://www.who.int/es/news-room/fact-sheets/detail/alcohol" target="_blank" rel="noopener noreferrer" class="dossier-source-link">Ficha técnica OMS</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Nicotina y Vapeo -->
+      <article class="dossier-item">
+        <div class="dossier-sidebar">
+          <span class="dossier-badge">Sustancia Psicoactiva</span>
+          <h3 class="dossier-title">Nicotina y Vapeo</h3>
+          <p class="dossier-meta">Cigarrillos convencionales y dispositivos de vapeo con sales concentradas de nicotina.</p>
+        </div>
+        <div class="dossier-content">
+          <div class="dossier-block">
+            <h4>Mecanismo y Consecuencias</h4>
+            <p>Se fija en receptores de acetilcolina liberando dopamina en 10 segundos. Ocasiona rigidez arterial, EPOC, inflamación pulmonar severa por químicos y metales del aerosol (EVALI) y daño al neurodesarrollo juvenil.</p>
+          </div>
+          <div class="clinical-warning"><strong>Criterio de alerta:</strong> Inhalar en los primeros minutos tras despertar y sentir irritabilidad incontrolable al no poder vapear o fumar.</div>
+          <div class="dossier-source-box">
+            <span class="dossier-source-tag">Fuente: <strong>Organización Panamericana de la Salud (OPS)</strong></span>
+            <a href="https://www.paho.org/es/temas/tabaco" target="_blank" rel="noopener noreferrer" class="dossier-source-link">Informe OPS</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Drogas Ilícitas -->
+      <article class="dossier-item">
+        <div class="dossier-sidebar">
+          <span class="dossier-badge">Sustancia Psicoactiva</span>
+          <h3 class="dossier-title">Drogas Ilícitas y Fármacos</h3>
+          <p class="dossier-meta">Metanfetaminas (cristal), opioides (fentanilo), cannabis de alta potencia y sedantes sin prescripción.</p>
+        </div>
+        <div class="dossier-content">
+          <div class="dossier-block">
+            <h4>Mecanismo y Consecuencias</h4>
+            <p>Los estimulantes destruyen axones dopaminérgicos causando psicosis paranoide. Los opioides anulan el centro respiratorio del bulbo raquídeo con riesgo inminente de paro respiratorio y muerte por sobredosis.</p>
+          </div>
+          <div class="clinical-warning"><strong>Criterio de alerta:</strong> Días continuos sin dormir, pérdida acelerada de peso, paranoia y abandono total de metas y responsabilidades.</div>
+          <div class="dossier-source-box">
+            <span class="dossier-source-tag">Fuente: <strong>National Institute on Drug Abuse (NIDA)</strong></span>
+            <a href="https://nida.nih.gov/es/areas-de-investigacion/sustancias-de-abuso-habitual" target="_blank" rel="noopener noreferrer" class="dossier-source-link">Expediente NIDA</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Videojuegos -->
+      <article class="dossier-item">
+        <div class="dossier-sidebar">
+          <span class="dossier-badge">Adicción Conductual</span>
+          <h3 class="dossier-title">Trastorno por Videojuegos</h3>
+          <p class="dossier-meta">Patología oficial código 6C51 en la Clasificación Internacional de Enfermedades (CIE-11).</p>
+        </div>
+        <div class="dossier-content">
+          <div class="dossier-block">
+            <h4>Mecanismo y Consecuencias</h4>
+            <p>Explotación de esquemas de recompensa de razón variable (misiones, rangos, recompensas aleatorias). Desencadena aislamiento social severo, inversión del ritmo de sueño, sedentarismo y deserción académica.</p>
+          </div>
+          <div class="clinical-warning"><strong>Criterio de alerta:</strong> Hostilidad agresiva al ser interrumpido, omitir comidas e higiene, y mentir sistemáticamente sobre las horas de juego.</div>
+          <div class="dossier-source-box">
+            <span class="dossier-source-tag">Fuente: <strong>CIE-11 / Organización Mundial de la Salud</strong></span>
+            <a href="https://www.who.int/es/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder" target="_blank" rel="noopener noreferrer" class="dossier-source-link">Guía diagnóstica OMS</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Redes Sociales -->
+      <article class="dossier-item">
+        <div class="dossier-sidebar">
+          <span class="dossier-badge">Adicción Conductual</span>
+          <h3 class="dossier-title">Redes Sociales y Pantallas</h3>
+          <p class="dossier-meta">Uso problemático digital y dependencia al estímulo algorítmico continuo.</p>
+        </div>
+        <div class="dossier-content">
+          <div class="dossier-block">
+            <h4>Mecanismo y Consecuencias</h4>
+            <p>Bucle de retroalimentación mediante notificaciones push y desplazamiento infinito. Genera fragmentación de la atención profunda, ansiedad por comparación (FOMO), baja autoestima y distorsión de la autoimagen.</p>
+          </div>
+          <div class="clinical-warning"><strong>Criterio de alerta:</strong> Verificación impulsiva sin notificaciones, angustia ante falta de señal o batería (nomofobia) e insomnio por pantallas.</div>
+          <div class="dossier-source-box">
+            <span class="dossier-source-tag">Fuente: <strong>American Psychological Association (APA)</strong></span>
+            <a href="https://www.apa.org/topics/social-media-internet" target="_blank" rel="noopener noreferrer" class="dossier-source-link">Investigación APA</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Apuestas Digitales -->
+      <article class="dossier-item">
+        <div class="dossier-sidebar">
+          <span class="dossier-badge">Adicción Conductual</span>
+          <h3 class="dossier-title">Apuestas Digitales y Ludopatía</h3>
+          <p class="dossier-meta">Juego patológico clasificado como adicción conductual formal en el DSM-5.</p>
+        </div>
+        <div class="dossier-content">
+          <div class="dossier-block">
+            <h4>Mecanismo y Consecuencias</h4>
+            <p>La inmediatez de transferencias bancarias en apps móviles elimina la percepción del dinero real. El cerebro procesa el "casi acierto" como victoria, provocando ruina financiera rápida, deudas extremas y depresión severa.</p>
+          </div>
+          <div class="clinical-warning"><strong>Criterio de alerta:</strong> Apostar cantidades crecientes para recuperar lo perdido ("cazar pérdidas") y ocultar préstamos y cuentas a la familia.</div>
+          <div class="dossier-source-box">
+            <span class="dossier-source-tag">Fuente: <strong>Secretaría de Gobernación (SEGOB México)</strong></span>
+            <a href="https://www.gob.mx/segob/acciones-y-programas/juegos-y-sorteos-ludopatia" target="_blank" rel="noopener noreferrer" class="dossier-source-link">Prevención SEGOB</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="senales" class="diagnostic-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Evaluación Diagnóstica</span>
+      <h2 class="section-title">Criterios Clínicos de Alarma (DSM-5 y CIE-11)</h2>
+      <p class="section-description">La presencia persistente de 3 o más de estos criterios durante 6 meses indica la necesidad urgente de valoración especializada.</p>
+    </div>
+    <div class="diagnostic-table">
+      <div class="diagnostic-item"><div class="diagnostic-num">CRITERIO 01</div><h4>Tolerancia Progresiva</h4><p>Se requiere mayor dosis o tiempo para alcanzar la satisfacción o alivio inicial.</p></div>
+      <div class="diagnostic-item"><div class="diagnostic-num">CRITERIO 02</div><h4>Síndrome de Abstinencia</h4><p>Malestar físico y psicológico (ansiedad, temblores, insomnio) al cesar el hábito.</p></div>
+      <div class="diagnostic-item"><div class="diagnostic-num">CRITERIO 03</div><h4>Pérdida de Control</h4><p>Incapacidad de limitar el tiempo o la cantidad de consumo pactada voluntariamente.</p></div>
+      <div class="diagnostic-item"><div class="diagnostic-num">CRITERIO 04</div><h4>Deseo Obsesivo (Craving)</h4><p>Pensamientos intrusivos y constantes sobre cuándo y cómo volver a consumir o jugar.</p></div>
+      <div class="diagnostic-item"><div class="diagnostic-num">CRITERIO 05</div><h4>Abandono de Obligaciones</h4><p>Deterioro en escuela, trabajo, responsabilidades del hogar o convivencia familiar.</p></div>
+      <div class="diagnostic-item"><div class="diagnostic-num">CRITERIO 06</div><h4>Persistencia ante el Daño</h4><p>Continuar a pesar de saber que causa problemas de salud, económicos o afectivos.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="recuperacion">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Ruta Asistencial</span>
+      <h2 class="section-title">El Proceso de Atención Integral</h2>
+      <p class="section-description">La deshabituación requiere intervención médica, psicoterapia cognitivo-conductual y apoyo del entorno cercano.</p>
+    </div>
+    <div class="protocol-steps">
+      <div class="protocol-step"><div class="step-digit">1</div><div class="step-details"><h4>Evaluación y Diagnóstico Multidisciplinario</h4><p>Historia médica, nivel de dependencia y diagnóstico de comorbilidades (ansiedad, depresión).</p></div></div>
+      <div class="protocol-step"><div class="step-digit">2</div><div class="step-details"><h4>Desintoxicación y Manejo de Abstinencia</h4><p>Supervisión médica para estabilizar signos vitales, sueño y funciones neuroquímicas.</p></div></div>
+      <div class="protocol-step"><div class="step-digit">3</div><div class="step-details"><h4>Intervención Psicoterapéutica</h4><p>Terapia cognitivo-conductual para identificar detonantes y reestructurar hábitos.</p></div></div>
+      <div class="protocol-step"><div class="step-digit">4</div><div class="step-details"><h4>Acompañamiento Familiar y Prevención</h4><p>Estrategias de contingencia ante recaídas y reconstrucción del proyecto de vida.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="directorio">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Instituciones Oficiales</span>
+      <h2 class="section-title">Directorio de Apoyo Gratuito en México</h2>
+      <p class="section-description">Canales gubernamentales y de salud pública gratuitos, confidenciales y sin estigma.</p>
+    </div>
+
+    <div class="official-mexico-banner">
+      <div>
+        <h3>Línea de la Vida — Gobierno de México</h3>
+        <p>Atención telefónica gratuita, profesional y confidencial en salud mental y adicciones. 24 horas, los 365 días del año en todo el país.</p>
+      </div>
+      <div><a href="tel:8009112000" class="btn btn-primary" style="font-size:1.05rem; padding:14px 26px;">Llamar: 800 911 2000</a></div>
+    </div>
+
+    <div class="directory-list">
+      <div class="directory-entry">
+        <div class="directory-header">
+          <span class="gov-badge">Portal Oficial | gob.mx</span>
+          <h3 class="directory-title">CONASAMA</h3>
+          <p class="directory-scope">Comisión Nacional de Salud Mental y Adicciones (Secretaría de Salud).</p>
+        </div>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Red nacional de Centros Comunitarios de Salud Mental y Adicciones (CECOSAMA).</p>
+        <div class="directory-contact"><span class="contact-label">Servicio</span><span class="contact-value" style="font-size:0.95rem; color:var(--text);">Red Nacional CECOSAMA</span></div>
+        <a href="https://www.gob.mx/salud/conasama" target="_blank" rel="noopener noreferrer" class="official-link">Visitar sitio oficial en gob.mx</a>
+      </div>
+
+      <div class="directory-entry">
+        <div class="directory-header">
+          <span class="gov-badge">Sector Salud</span>
+          <h3 class="directory-title">Centros de Integración Juvenil (CIJ)</h3>
+          <p class="directory-scope">Institución especializada con más de 120 unidades de atención en México.</p>
+        </div>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Consultas médicas, psicológicas ambulatorias y hospitalización para adicciones.</p>
+        <div class="directory-contact"><span class="contact-label">Atención y WhatsApp CIJ</span><span class="contact-value">55 5212 1212</span></div>
+        <a href="https://www.cij.gob.mx/" target="_blank" rel="noopener noreferrer" class="official-link">Portal oficial cij.gob.mx</a>
+      </div>
+
+      <div class="directory-entry">
+        <div class="directory-header">
+          <span class="gov-badge">Gobierno CDMX</span>
+          <h3 class="directory-title">IAPA</h3>
+          <p class="directory-scope">Instituto para la Atención y Prevención de las Adicciones.</p>
+        </div>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Canalización a centros certificados y reducción de daños en Ciudad de México.</p>
+        <div class="directory-contact"><span class="contact-label">Teléfono</span><span class="contact-value">55 4631 3035</span></div>
+        <a href="https://iapa.cdmx.gob.mx/" target="_blank" rel="noopener noreferrer" class="official-link">Portal oficial iapa.cdmx.gob.mx</a>
+      </div>
+
+      <div class="directory-entry">
+        <div class="directory-header">
+          <span class="gov-badge">Registro gob.mx</span>
+          <h3 class="directory-title">Establecimientos Certificados</h3>
+          <p class="directory-scope">Directorio oficial de centros residenciales normados bajo la NOM-028-SSA2.</p>
+        </div>
+        <p style="font-size:0.88rem; color:var(--text-muted);">Centros de rehabilitación supervisados con pleno respeto a los derechos humanos.</p>
+        <div class="directory-contact"><span class="contact-label">Verificación</span><span class="contact-value" style="font-size:0.95rem; color:var(--text);">Padrón Normado Oficial</span></div>
+        <a href="https://www.gob.mx/salud/conasama/documentos/directorio-nacional-de-establecimientos-especializados-en-salud-mental-y-adicciones" target="_blank" rel="noopener noreferrer" class="official-link">Consultar catálogo en gob.mx</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-brand">LI<span>BRE</span></a>
+        <p>Iniciativa orientada a la concientización sobre adicciones y al acceso a servicios de salud públicos oficiales en México.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Clasificación</h5>
+        <ul>
+          <li><a href="#informacion">Alcohol y Tabaco</a></li>
+          <li><a href="#informacion">Drogas Ilícitas</a></li>
+          <li><a href="#informacion">Videojuegos y Pantallas</a></li>
+          <li><a href="#informacion">Apuestas Digitales</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Recursos Oficiales</h5>
+        <ul>
+          <li><a href="https://www.gob.mx/salud/conasama" target="_blank" rel="noopener noreferrer">CONASAMA gob.mx</a></li>
+          <li><a href="https://www.cij.gob.mx/" target="_blank" rel="noopener noreferrer">Centros Integración Juvenil</a></li>
+          <li><a href="https://iapa.cdmx.gob.mx/" target="_blank" rel="noopener noreferrer">IAPA CDMX</a></li>
+          <li><a href="tel:8009112000">Línea de la Vida: 800 911 2000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 LIBRE — Proyecto de Concientización y Salud Pública.</p>
+      <p>Emergencias médicas: <strong>911</strong> | Línea de la Vida: <strong>800 911 2000</strong></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
